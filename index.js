@@ -20,7 +20,7 @@ function deepestChild() {
   var outside = document.querySelector('div#grand-node');
   var inside = outside.querySelectorAll('div');
   
-  for (var i = 0; i < wholeList.length; i++) {
+  for (var i = 0; i < inside.length; i++) {
     wholeList[i] = i;
   }
   
