@@ -25,5 +25,5 @@ function deepestChild() {
     wholeList[i] = i;
   }
   
-  return wholeList
+  return inside
 }
