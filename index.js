@@ -25,7 +25,7 @@ function deepestChild() {
     wholeList.push(inside[i]);
   }
   
-  deepChild = wholeList[wholeList.length-1];
+  var deepChild = wholeList[wholeList.length-1];
   
   return deepChild
 }
