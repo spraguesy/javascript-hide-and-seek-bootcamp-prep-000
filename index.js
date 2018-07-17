@@ -22,9 +22,8 @@ function deepestChild() {
   var wholeList  = []
   
   for (var i = 0; i < inside.length; i++) {
-    if (inside[i] === '<div>boo!</div>')
-    inside = inside[i].innerHTML
+    wholeList.push(inside[i]);
   }
   
-  return inside
+  return wholeList
 }
